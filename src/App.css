@@ -1,0 +1,26 @@
+/* App.css */
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links li {
+  padding: 5px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: #08c1ff;
+}
+
+.active-link {
+  font-weight: bold;
+  background-color: #1dcdf9;
+}
